@@ -2,7 +2,7 @@ import {HtagProps} from "./Htag.props";
 import styles from './Htag.module.css'
 
 
-const Htag = ({tag, children}: HtagProps):JSX.Element => {
+export const Htag = ({tag, children}: HtagProps):JSX.Element => {
 
     switch (tag){
         case "h1":
@@ -25,4 +25,3 @@ const Htag = ({tag, children}: HtagProps):JSX.Element => {
     // </>
     // )
 }
-export default  Htag;

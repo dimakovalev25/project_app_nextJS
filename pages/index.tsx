@@ -1,8 +1,8 @@
 import Head from 'next/head';
-import Htag from "@/components/Htag/Htag";
-import Button from "@/components/Button/Button";
+// import Htag from "@/components/Htag/Htag";
+// import Button from "@/components/Button/Button";
 
-// import { Htag, Button } from '../components'
+import { Htag, Button } from '../components'
 
 export default function Home(): JSX.Element {
     return (
@@ -15,8 +15,8 @@ export default function Home(): JSX.Element {
             </Head>
             <h1>next</h1>
             <Htag tag={'h1'}>htag</Htag>
-            <Button appearence={'primary'}>add</Button>
-            <Button appearence={'ghost'}>add</Button>
+            <Button arrow={'right'} appearence={'primary'}>add</Button>
+            <Button arrow={'down'} appearence={'ghost'}>add</Button>
 
         </>
     )
